@@ -4,5 +4,5 @@
 
 Esse é o esquema do circuito montado na Protoboard
 ![Imagem do
-Circuito](//https://github.com/IIoT-Fei/PortasAbertas2017/blob/master/FeiPortasAbertasPrj2017.png)
+Circuito](https://raw.githubusercontent.com/IIoT-Fei/PortasAbertas2017/master/FeiPortasAbertasPrj2017.png)
 
