@@ -45,10 +45,10 @@ temos botões plugados nos pinos e um buzzer como saída.
 ### `void loop()`
 
 Essa é a principal função do código Arduino. Ela é executada em ciclos muito
-rápidos; isto é, sempre que essa função termina, ela começã de novo!
+rápidos; isto é, sempre que essa função termina, ela começa de novo!
 ![loop](https://genius.com/images/throbber.gif)
 
-A primeira linha arqui é:
+A primeira linha aqui é:
 ```C
 EstadoBotao1 = digitalRead(Botao1);
 ```
@@ -76,8 +76,8 @@ segunda linha é executada somente se a pergunta foi respondida com **SIM**.
 
 Fácil!
 
-Nesse código estamos 3 perguntas e juntando com a palavra **e**. A pergunta é:
-> O EstadoBotao1 vale 1 E o EstadoBotao2 vale 0 E o EstadoBotao3 vale 0?
+Nesse código fazemos 3 perguntas e jutamos elas com a palavra **e**. A pergunta é:
+> O EstadoBotao1 vale 1; E o EstadoBotao2 vale 0; E o EstadoBotao3 vale 0?
 
 Se isso for verdade, `tone(Buzzer, 500)` é executado! Essa função faz o
 *Buzzer* vibrar a 500Hz.
@@ -93,7 +93,7 @@ if(a==1 && b==2 && a==c){
     // Bloco de código
 }
 ```
-> *a* é igual a 1 E *b* é igual a 2 E *a* é igual a *c*?
+> *a* é igual a 1; E *b* é igual a 2; E *a* é igual a *c*?
 
 
 
@@ -103,7 +103,7 @@ if( (a==1 && b==2) || a==c){
     // Bloco de código
 }
 ```
-> (*a* é igual a 1 E *b* é igual a 2) OU *a* é igual a *c*?
+> (*a* é igual a 1; E *b* é igual a 2); OU *a* é igual a *c*?
 
 Viu? É fácil!
 
