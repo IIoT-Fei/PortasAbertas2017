@@ -20,18 +20,15 @@ void loop(){
   EstadoBotao2 = digitalRead(Botao2);
   EstadoBotao3 = digitalRead(Botao3);
 
-  value = analogRead(sensorPin);
-  Serial.println(value);
-  
-  if(EstadoBotao1 && !EstadoBotao2 && !EstadoBotao3) {
+  if(EstadoBotao1==1 && EstadoBotao2==0 && EstadoBotao3==0) {
     tone(Buzzer, 500);
   }
       
-  if(EstadoBotao2 && !EstadoBotao1 && !EstadoBotao3) {
+  if(EstadoBotao2==1 && EstadoBotao1==0 && EstadoBotao3==0) {
     tone(Buzzer, 1000);
   }
   
-  if(EstadoBotao3 && !EstadoBotao2 && !EstadoBotao1) {
+  if(EstadoBotao3==1 && EstadoBotao2==0 && EstadoBotao1==0) {
     tone(Buzzer, 1500);
   }
 
